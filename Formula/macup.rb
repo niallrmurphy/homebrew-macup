@@ -6,6 +6,11 @@ class Macup < Formula
   license "MIT"
   head "https://github.com/niallrmurphy/macup.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/niallrmurphy/homebrew-macup/releases/download/macup-1.0.2"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "cb3ebd1546b492fde06683bfc6c71fb7467a0e75f9fc931b6947fe62f8992b62"
+  end
+
   depends_on "go" => :build
   depends_on :macos
 
