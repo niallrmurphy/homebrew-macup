@@ -1,8 +1,8 @@
 class Macup < Formula
   desc "macOS application inventory and update checker"
   homepage "https://github.com/niallrmurphy/macup"
-  url "https://github.com/niallrmurphy/macup/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "0485aff9d263f8c3d7b52cd0665bc9f02c36ea53a7109744b83bbf2d083a0688"
+  url "https://github.com/niallrmurphy/macup/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "a40edaadb9615b1a1724ad0b1d3ca255eaab664373a855122b09dcb53f4b1174"
   license "MIT"
   head "https://github.com/niallrmurphy/macup.git", branch: "main"
 
