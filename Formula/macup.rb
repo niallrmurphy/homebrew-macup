@@ -6,7 +6,6 @@ class Macup < Formula
   license "MIT"
   head "https://github.com/niallrmurphy/macup.git", branch: "main"
 
-
   depends_on "go" => :build
   depends_on :macos
 
