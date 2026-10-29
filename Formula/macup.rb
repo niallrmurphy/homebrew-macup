@@ -7,8 +7,8 @@ class Macup < Formula
   head "https://github.com/niallrmurphy/macup.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/niallrmurphy/homebrew-macup/releases/download/macup-1.0.2_1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "198d19fd02e627a526d570a62aa74cb6eed4f93fd2e1a12e6b091dda265c392e"
+    root_url "https://github.com/niallrmurphy/homebrew-macup/releases/download/macup-1.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "fee0afb783421610d306c6e7f952050044b8a30bbd615680652f3eb3fc82180c"
   end
 
   depends_on "go" => :build
